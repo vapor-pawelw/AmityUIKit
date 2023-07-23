@@ -27,7 +27,7 @@ extension String {
     }
     
     public var localizedString: String {
-            return NSLocalizedString(self, tableName: "AmityLocalizable", bundle: AmityUIKitManager.bundle, value: "", comment: "")
+        return NSLocalizedString(self, tableName: "AmityLocalizable", bundle: AmityUIKitManager.bundle, value: "", comment: "")
     }
     
     public func height(withConstrainedWidth width: CGFloat, font: UIFont) -> CGFloat {
